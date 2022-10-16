@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/image/icons8-black-pink-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    
+    <title>Mini Portfólio - Gabrielle</title>
+</head>
+<body>
+    <!-- a tag main é quando um elemento é principal, ..mais semântica que a tag div -->
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/image/foto-perfil.png" alt="A minha foto de perfil" />
+            <h1 class="nome">Gabrielle Souza de Melo</h1>
+            <h2 class="cargo">Desenvolvedor Front-End</h2>
+        </div>
+        <!-- CTRL + Espaço pode ajudar no caminho caso tenha bugado -->
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/image/sobre.gif" alt="icone sobre mim em formato de janela de pc animada" />
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/image/coracao.gif" alt="ícone de redes sociais em formato de coração animado" />
+                </li>
+            </ul>
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Gabrielle Souza, seja bem-vindo(a)!</p>
+                            <br />
+                        <p>
+                            Sou uma apaixonada pela tecnologia e jogos desde quando era mais nova, com uns 12 anos de idade. Desde muito pequena, por ter um pai na área de tecnologia, tinhamos um
+                            computador em casa e tendo o acesso a ele, com 12 anos de idade foi quando comecei a me interessar a fazer um site - na época um blog de uma novelinha infantil que eu
+                            gostava muito -  a partir disso foi quando comecei a me interessar a mexer no front-end (na época nem sabia que tinha esse nome) de um site, mudar cores, fundos,
+                            fontes e tudo mais, ainda com um conhecimento bem raso por ser muito nova.
+                        </p>
+                            <br />
+                        <p>
+                            Após a minha formação no ensino médio, tive a responsabilidade de cursar uma faculdade assim que sai, me interessei então pela faculdade
+                            de <span>desenvolvimento de games</span>, já que sempre gostei de jogar diversos jogos de console, pc ou até mesmo tabuleiros lá aprendi diversas áreas como modelagem
+                            história, psicologia envolvendo games, marketing básico e novamente tive o contato com criação de sites, mas desta vez para mostrar o jogo no qual criaria como TCC da
+                            área, confesso ter sido uma nova experiência e desafio com um pouco mais de idade, e então com meu conhecimento básico consegui criar uma land-page simples apenas como
+                            demonstração. Posteriormente, formada nessa área eu vi que games não era só minha paixão, como também a criação de sites e foi quando que por conta própria, criei
+                            coragem para aprender sozinha, cursos online e livros digitais. Tive alguns anos depois minha primeira experiência em uma empresa de consulta de crédito e certificado
+                            digital, onde trabalhei durante 2 anos e 10 meses como <span>desenvolvedora web</span>, e foi uma das minhas primeiras experiências profissionais e o objetivo inicial
+                            era criar um blog para <span>wordpress</span> do zero em código. Lá tive minha primeira interação com <span>PHP</span> de forma simples e básica e também o
+                            <span>JavaScript</span> como as linguagens de backend, não foi tão aprofundado como <span>CSS e HTML</span>. Dentre essas, também tive contato com o <span>MySql</span> 
+                            através do software WAMP e <span>PhpMyAdmin</span> para criar o banco de dados para o site no <span>wordpress</span>, já a
+                            hospedagem foi um surpresa para mim, um dos desafios até então desconhecido para mim que era hospedar em cloud no <span>Google Cloud Plataform (GCP)</span>, como era a
+                            preferência da empresa tive que aprender por conta própria lendo documentação e treinando. Como primeiro emprego na área, esse foi o de longe um enorme de aprendizado,
+                            onde consegui entender e aprender novas tecnologias e nas quais até então até hoje procuro aprender mais sobre. Dentre as minhas vontades de aprender está a linguagem
+                            <span>Python</span> e me tornar uma grande desenvolvedora full stack e quem sabe futuramente um grande sonho meu de montar uma empresa de games, trabalhando tanto
+                            gamificar no aprendizado, diversão, entretenimento e tudo mais. Estudando atualmente: <span>Banco de dados, GCP, HTML5 e aprimorando meu inglês</span>.
+                        </p>
+                            <br />
+                        <p>
+                            Minhas paixões: minha doguinha, jogar, ver séries, café (gosto demais, difícil achar um dev que não curte, né? rs), chocolate (eu amo muito), leite com nescau (não pode
+                            faltarw), marvel, hérois, tecnologia e tudo que envolve ela.
+                        </p>
+                    </div>
+                </div>
+                    <div class="informacao" id="informacao-minhas-redes">
+                        <h3 class="sub-titulo">Minhas redes</h3>
+                        <div class="redes">
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="#" target="_blank" class="curriculo">
+                                    Currículo
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="linkedin">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="github">
+                                    GitHub
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- HTML trabalha bastante com semântica-->
+
+    <script src="./src/js/index.js"></script>
+    <!--  Carregamento do arquivo javascript -->
+</body>
+</html>
